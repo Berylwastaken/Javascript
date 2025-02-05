@@ -1,1 +1,70 @@
-
+body{
+    background-color: #1e2124;
+    font-family: Roboto;
+    color: white;
+    margin: 0;
+}
+main{
+    margin: 8px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #282b30;
+    padding: 20px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #36393e;
+}
+button{
+    border: #282b30, 5px solid;
+    background-color: #282b30;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#36393e;   
+    border-color:#36393e;
+}
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+}
+#btncontainer{
+    text-align: center;
+}
+.counterbtn{
+    margin: 5px;
+    font-size: 1.5em;
+}
+#rngbtn{
+    font-size: 1.5em;
+}
+#rng{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+}
+#rngbtncontainer{
+    text-align: center;
+}
